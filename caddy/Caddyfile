@@ -1,0 +1,7 @@
+tracker.ge.inethicloud.net {
+    reverse_proxy celo-tracker:5001
+}
+
+nats.ge.inethicloud.net {
+    reverse_proxy nats:8222
+}
